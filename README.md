@@ -1,70 +1,19 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Simple Youtube Project
+## 🎯 프로젝트 목적
+1. 리액트를 이용해 유튜브와 비슷한 기능을 간략히 구현하며 리액트의 이해도를 높인다.
+2. 면접관에게 나의 프로젝트를 설명한다는 생각으로 구조적으로 리드미 파일을 작성하는 법을 익힌다.
+3. 영문으로된 APIs 문서에 익숙해지며 활용능력을 올린다.
+4. 서버통신에 대한 이해력을 높인다.
+5. 깃과 깃헙에 익숙해지고, 커밋 작성법을 익힌다.
+6. netlify를 이용한 배포를 연습해본다.
+## 🗓 프로젝트 기간
+* 2022/10/07 ~
+## 🛠 스택
+* React
+## ⚙️ 기능, 구현계획
+* 메인페이지에서 상단엔 검색바, 메인엔 인기있는 동영상리스트를 보여줌.
+  1. 컴포넌트는 상단의 Search 컴포넌트와 하단에 List 컴포넌트로 구성.
+* 영상재생화면에선 상단엔 검색바, 메인좌측중단은 영상, 좌측하단은 영상정보, 메인 우측은 영상리스트
+  1. 컴포넌트는 상단의 Search 컴포넌트와 메인 좌측은 Video 컴포넌트 메인 우측은 list 컴포넌트.
+  2. Video 컴포넌트는 상단은 VideoPlay 컴포넌트 하단은 VideoList 컴포넌트로 구성.
+* 모든 화면은 반응형으로 만든다.
