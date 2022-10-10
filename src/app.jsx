@@ -1,11 +1,13 @@
-import React from 'react';
-import './app.css';
+import React from "react";
+import "./app.css";
+import Search from "./components/search";
 
 function App() {
   return (
     <React.Fragment>
-      <h1>Hello :)</h1>
-      <h1>Hello 2</h1>
+      <div className="container">
+        <Search />
+      </div>
     </React.Fragment>
   );
 }
